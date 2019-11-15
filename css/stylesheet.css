@@ -29,6 +29,7 @@
   background-size: cover;
   width: 100%;
   height: 100%;
+  box-shadow: 4px 4px 4px rgb(0, 0, 0);
 }
 
 .extra-1, .extra-3 {
@@ -47,4 +48,15 @@
   background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
   height: 100%;
+  position: relative;
+}
+
+.city {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+  text-shadow: 4px 4px rgb(0, 0, 0);
 }
