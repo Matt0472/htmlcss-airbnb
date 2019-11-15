@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+
+}
+
+.antananarivo {
+  background-image: url(../img/antananarivo.jpg);
+
+}
+
+.lima {
+  background-image: url(../img/lima.jpg);
+
+}
+
+.sydney {
+  background-image: url(../img/sydney.jpg);
+
+}
+
+.box {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.extra-1, .extra-3 {
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+}
+
+.extra-2 {
+  width: 100%;
+  height: 100vh;
+  padding: 0 20px;
+}
+
+.layover {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
